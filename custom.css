@@ -28,9 +28,9 @@
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-size: 18px;
     line-height:1.4em;
-    padding-left:3em;
-    padding-right:3em;
-    max-width: 36em;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    /* max-width: 36em !important; */
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
