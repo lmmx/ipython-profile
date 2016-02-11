@@ -1,4 +1,4 @@
-# Jiahao's IPython Notebook customizations
+# Louis's IPython Notebook customizations <br /><sub>forked from Jiahao's</sub>
 
 This custom CSS file contains several typographic adjustments (inspired by
 [Butterick's Practical Typography](http://practicaltypography.com)) to improve
