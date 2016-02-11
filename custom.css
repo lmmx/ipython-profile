@@ -1,3 +1,19 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*//* Experimental typographically tinkered IJulia stylesheet
+ * Copyright © 2013--2015 Jiahao Chen <jiahao@mit.edu>
+ * MIT License
+ *
+ * To use, place in ~/.ipython/profile_notebook/static/custom/custom.css
+ * and refresh the page. (The IPython/Jupyter server does not need to be restarted.)
+ *
+ * Based on suggestions from practicaltypography.com
+ */
+
 /* Experimental typographically tinkered IJulia stylesheet
  * Copyright © 2013--2015 Jiahao Chen <jiahao@mit.edu>
  * MIT License
@@ -28,9 +44,10 @@
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-size: 18px;
     line-height:1.4em;
-    padding-left:3em;
-    padding-right:3em;
-    max-width: 36em;
+    padding-left: 3% !important;
+    padding-right: 3em !important;
+    padding-right: 3% !important;
+    /* max-width: 36em !important; */
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
@@ -117,4 +134,8 @@ div.output_error pre {
 
 .rendered_html td {
     font-variant-numeric: tabular-nums;
+}
+
+.rendered_html pre, .rendered_html code {
+    font-size: 85% !important;
 }
